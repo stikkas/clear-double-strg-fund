@@ -4,9 +4,9 @@
     <provider>org.hibernate.ejb.HibernatePersistence</provider>
     <properties>
       <property name="javax.persistence.jdbc.url" value="jdbc:oracle:thin:@localhost:1521:hawkw"/>
-      <property name="javax.persistence.jdbc.password" value="archiv"/>
+      <property name="javax.persistence.jdbc.password" value="*"/>
       <property name="javax.persistence.jdbc.driver" value="oracle.jdbc.OracleDriver"/>
-      <property name="javax.persistence.jdbc.user" value="sic"/>
+      <property name="javax.persistence.jdbc.user" value="*"/>
       <property name="hibernate.cache.provider_class" value="org.hibernate.cache.NoCacheProvider"/>
     </properties>
   </persistence-unit>
